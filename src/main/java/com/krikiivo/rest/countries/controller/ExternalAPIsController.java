@@ -1,6 +1,6 @@
 package com.krikiivo.rest.countries.controller;
 
-import com.krikiivo.rest.countries.ApiClient;
+import com.krikiivo.rest.countries.client.ApiClient;
 import com.krikiivo.rest.countries.model.Country;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
