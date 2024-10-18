@@ -1,4 +1,4 @@
-package com.krikiivo.rest.countries;
+package com.krikiivo.rest.countries.client;
 
 import com.krikiivo.rest.countries.model.Country;
 import org.springframework.cloud.openfeign.FeignClient;
