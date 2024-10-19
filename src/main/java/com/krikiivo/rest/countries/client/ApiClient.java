@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 
-@FeignClient(name = "apiClient", url = "https://restcountries.com/v3.1")
+@FeignClient(name = "apiClient", url = "${restcountries.api.url}")
 public interface ApiClient {
 
-    @GetMapping("/all")
+    @GetMapping
     ResponseEntity<List<Country>> getData();
-
 }
+
